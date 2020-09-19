@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+    <meta charset="UTF-8">
+   <title>Сайт портфолио</title>
+   
+   <!-- Это все шрифты к сайту  -->
+   <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <!-- Собственные стили -->
+   <link rel="stylesheet" href="css/main.css">
+   
+   <!-- Подключение веб-шрифтов -->
+   <link rel="shortcut icon" type="image/fav" href="image/favicon/fav.ico">
+   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+   rel ="stylesheet">
+   
+   
+ </head>
+ 
+ <body>
+
+<!--.....................................
+HEADER
+..................................... -->
+ <div class="header">
+ <div class="header__title">Калашников Никита</div>
+ <div class="header__slogan">Верстка сайтов на HTML и CSS <br>HTML5 CSS3 JS jQuery</div>
+ <div class="header__arrow">
+<i class="fa fa-chevron-down"></i>
+ <script src="http://kit.fontawesome.com/37ac5c1b60.js"></script>
+ </div>
+ </div>
+ 
+ <!--...........................................
+PORTFOLIO
+........................................... -->
+ 
+ 
+ <div class="portfolio">
+     <div class="container">
+	 
+	 <div class="title">
+	 Портфолио
+	 </div>
+	 
+	 <div class="row">
+	 <!--Работа в портфолио -->
+	 <div class="col-4">
+	    <div class ="portfolio-item__img">
+	    <img src="image/portfolio/project_organica.jpg"alt="Макет Органика">
+		</div>
+	    <div class ="portfolio-item__title">
+		<a href= "#">Макет Органика</a>
+		</div>
+	    <div class ="portfolio-item__text">
+		 <p>Верстка одностраничного сайта по PSD макету.</p>
+		</div>
+		</div>
+		
+		 <!--//Работа в портфолио -->
+		 
+		 <!--Работа в портфолио -->
+	 <div class="col-4">
+	    <div class ="portfolio-item__img">
+	    <img src="image/portfolio/project_apollo.jpg"alt="<Учебный макет Аполо">
+		</div>
+	    <div class ="portfolio-item__title">
+		<a href= "#">Учебный макет Аполо</a>
+		</div>
+	    <div class ="portfolio-item__text">
+		 <p>Верстка лендинга хостинг компании. Мобильная адаптивность</p>
+		</div>
+		</div>
+		<!--//Работа в портфолио -->
+
+<!--Работа в портфолио -->		 
+	 <div class="col-4">
+	    <div class ="portfolio-item__img">
+	    <img src="image/portfolio/project_portfolio.jpg"alt="Личный сайт портфолио">
+		</div>
+	    <div class ="portfolio-item__title">
+		<a href= "#">Личный сайт портфолио</a>
+		</div>
+	    <div class ="portfolio-item__text">
+		 <p>Верстка личного сайта портфолио на котором вы сейчас находитесь.</p>
+		</div>
+		</div>
+		<!--//Работа в портфолио -->
+		</div>
+	 </div>
+	 </div>
+	 
+	 
+	 
+	
+ 
+ 
+
+
+  </body> 
+</html>
